@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-12-04T06:39:47.147Z",
+    "end": "2020-12-04T06:39:47.152Z",
+    "duration": 5,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9ce61284-9890-4752-9ba8-93aa41f439e3",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "1a8f99bf-69b2-4d1f-bfd2-86dab373b6a4",
+          "title": "加法函数的测试",
+          "fullFile": "/Users/bigboy/codes/algorithm/test/add.test.js",
+          "file": "/test/add.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "1 加 1 应该等于 2",
+              "fullTitle": "加法函数的测试 1 加 1 应该等于 2",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(add(1, 1)).to.be.equal(2);",
+              "err": {},
+              "uuid": "b2caa3e2-3958-49e2-9238-273b74a870f9",
+              "parentUUID": "1a8f99bf-69b2-4d1f-bfd2-86dab373b6a4",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "相等或不相等",
+              "fullTitle": "加法函数的测试 相等或不相等",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect(4+5).to.be.equal(9);",
+              "err": {},
+              "uuid": "c743da90-bdba-4d17-9b40-bfb58e43c523",
+              "parentUUID": "1a8f99bf-69b2-4d1f-bfd2-86dab373b6a4",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "b2caa3e2-3958-49e2-9238-273b74a870f9",
+            "c743da90-bdba-4d17-9b40-bfb58e43c523"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "d6d67fcf-6949-4a14-ad0a-a1e08f8155f8",
+          "title": "布尔值为true",
+          "fullFile": "/Users/bigboy/codes/algorithm/test/base.test.js",
+          "file": "/test/base.test.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "everything",
+              "fullTitle": "布尔值为true everything",
+              "timedOut": false,
+              "duration": 0,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "expect('everything').to.be.ok;",
+              "err": {},
+              "uuid": "13ec3e6c-2700-4e75-b154-e87fe42a28b6",
+              "parentUUID": "d6d67fcf-6949-4a14-ad0a-a1e08f8155f8",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "13ec3e6c-2700-4e75-b154-e87fe42a28b6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.2.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}
